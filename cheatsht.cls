@@ -36,10 +36,10 @@
     \Large{\textbf{#1}} \\
   \end{center}
 }
-
+\newcommand{\link}[1]{\textcolor{blue}{\underline{\href{#1}{#1}}}}
 \newcommand{\signature}[1]
 {
-  \begingroup\tiny
+  \begingroup\fontsize{5}{4}\selectfont
     \begin{tabular}{@{}l@{}}
       \hline
       #1
