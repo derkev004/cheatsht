@@ -9,11 +9,22 @@
 % version 2005/12/01 or later.
 %
 % This work has the LPPL maintenance status `maintained'.
-% 
+% It is based latexcheat, a work by Winston Chang.
 % The Current Maintainer of this work is 2016/07 Kevin Konrad.
 %
 % This work consists of the file cheatsht.cls.
-
+%
+%% Changelog
+%
+% I put all of the commands that change the pdf output of the
+%  document into this file.
+% Added some of those commands to hooks, so that the class is
+%  easier to use.
+% Added signature command for copyright/ownership info.
+% Added link command for blue underlined hyperlinks.
+% Customized title command to typeset the title in-place.
+% Added newcheat command to typeset a secon/third etc.
+%  cheatsheet. It's basically an enriched newpage.
 
 The LaTeX Project Public License
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
